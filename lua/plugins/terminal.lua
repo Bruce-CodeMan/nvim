@@ -4,7 +4,7 @@ return {
   config = function()
     require("toggleterm").setup({
       size = 20, -- 终端窗口的高度或宽度
-      open_mapping = [[<C-\>]], -- 快捷键：Ctrl + \
+      open_mapping = [[<C-t>]], -- 快捷键：Ctrl + \
       hide_numbers = true, -- 隐藏行号
       shade_filetypes = {},
       shade_terminals = true, -- 使终端背景变暗
